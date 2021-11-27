@@ -1,0 +1,138 @@
+.invoiceAmount {
+  font-size: 1rem;
+  color: #D80065;
+  font-weight: 300;
+  line-height: 1.2;
+                        
+}
+
+.paymethod {
+
+    width: 100%;
+    background: #34C38F;
+    border: none;
+    text-align: left;
+}
+
+.img_qpay{
+  margin-right:20px;
+ width: 30px;
+ height: auto;
+}
+
+.img_credit{
+  margin-right:20px;
+  width: 30px;
+  height: auto;
+ }
+
+.img_omm{
+  margin-right:20px;
+  width: 30px;
+  height: auto;
+ }
+
+.tableDetails{
+  border-collapse: collapse
+}
+
+.tdDetails{
+  padding: 0 !important; 
+  margin: 0 !important;
+}
+
+@include media-breakpoint-up(sm) {
+  .invoiceAmount {
+    font-size: 1rem;
+    
+  }
+  .paymethod {
+    font-size: 12px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .img_qpay{
+    width: 10%;
+    height: auto;
+  }
+   
+   .img_credit{
+    width: 10%;
+     height: auto;
+    }
+   
+   .img_omm{
+
+    width: 10%;
+     height: auto;
+    }
+   
+
+
+}
+
+@include media-breakpoint-up(md) {
+  .invoiceAmount {
+    font-size: 1rem;
+  }
+  .paymethod {
+    font-size: 1rem;
+    text-align: left;
+   
+  }
+
+  .img_qpay{
+    margin-right:30px;
+    width: 15%;
+    height: auto;
+  }
+
+  .img_credit{
+    margin-right:30px;
+    width: 15%;
+     height: auto;
+    }
+   
+   .img_omm{
+    margin-right:30px;
+    width: 15%;
+     height: auto;
+    }
+   
+
+}
+
+@include media-breakpoint-up(lg) {
+  .invoiceAmount {
+    font-size: 2.0rem;
+  }
+  .paymethod {
+  text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .img_qpay{
+    margin-right:30px;
+    width: 15%;
+    height: auto;
+  }
+  
+  .img_credit{
+    margin-right:30px;
+    width: 15%;
+     height: auto;
+    }
+   
+   .img_omm{
+    margin-right:30px;
+     width: 15%;
+     height: auto;
+    }
+   
+
+  .headerDetails {
+    padding-top: 1rem;
+  }
+
+}

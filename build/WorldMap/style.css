@@ -1,0 +1,25 @@
+*{
+    /* position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: center; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+svg path{
+    fill:#005fb8;
+    stroke:#E1EFFB;
+    stroke-width:1;
+}
+
+svg path:hover{
+    fill:#00a8e0;
+    stroke:#E1EFFB;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-miterlimit:3;
+}
